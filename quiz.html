@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="quiz.css">
+    <script src="quiz.js"></script>
+</head>
+
+<body>
+    <div id="container1">
+        <h2>Quiz about Pakistan</h2>
+        <hr>
+        <div id="questionsGrid">
+
+        </div>
+        <div id="optionsGrid">
+            <ol><button id="button1" value="a" onclick="checkAnswer(this.value)"></button></ol>
+            <ol><button id="button2" value="b" onclick="checkAnswer(this.value)"></button></ol>
+            <ol><button id="button3" value="c" onclick="checkAnswer(this.value)"></button></ol>
+            <ol><button id="button4" value="d" onclick="checkAnswer(this.value)"></button></ol>
+        </div>
+        <hr>
+        <center>
+            <button id="next" onclick="displayQuestion()">Next</button>
+        </center>
+    </div>
+</body>
+
+</html>

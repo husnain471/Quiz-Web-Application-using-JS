@@ -1,0 +1,104 @@
+body {
+    background-color: teal;
+    color: teal;
+}
+
+#container1 {
+    background-color: yellowgreen;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 20px;
+    border: 2px solid red;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 5%;
+    text-shadow: 1px 1px yellow;
+}
+
+#questionsGrid {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: yellow;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    border-radius: 20px;
+    border: 2px solid red;
+    text-align: center;
+    padding: 10px;
+}
+
+#questionsGrid2 {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: yellow;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 2%;
+    border-radius: 20px;
+    border: 2px solid red;
+    text-align: center;
+    padding: 10px;
+}
+
+#optionsGrid {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: teal;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    border-radius: 20px;
+    border: 2px solid red;
+}
+
+#button1,
+#button2,
+#button3,
+#button4 {
+    color: purple;
+    background-color: rgb(233, 233, 155);
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid rgb(233, 233, 155);
+}
+
+#next {
+    background-color: yellowgreen;
+    text-align: center;
+    border-radius: 20px;
+    border: 5px solid rgb(233, 233, 155);
+    padding: 5px;
+    width: 100px;
+    margin-bottom: 3px;
+}
+
+#selector {
+    position: center;
+    align-self: center;
+}
+
+#button1:hover {
+    background-color: yellow;
+}
+
+#button2:hover {
+    background-color: yellow;
+}
+
+#button3:hover {
+    background-color: yellow;
+}
+
+#button4:hover {
+    background-color: yellow;
+}
+
+#next:hover {
+    border: 5px solid yellow;
+    background-color: teal;
+    margin-bottom: 5px;
+}
